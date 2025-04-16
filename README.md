@@ -1,7 +1,6 @@
 # <img src="public/icon.svg" alt="Calmify Icon" width="28" height="28" style="vertical-align: middle;"> Calmify
 
-A modern, customizable lofi music player built with Next.js and TypeScript. Perfect for coding, studying, or just chilling.
-Try it out: [demo](https://Calmify.vercel.app/).
+Calmify is a modern, customizable lofi music player built with Next.js and TypeScript. It’s perfect for coding, studying, or simply unwinding. Give it a try: [demo](https://Calmify.vercel.app/).
 
 <p align="center">
   <img src="demo.gif" alt="Calmify Demo" width="800px" />
@@ -9,47 +8,47 @@ Try it out: [demo](https://Calmify.vercel.app/).
 
 ## ✨ Features
 
-- 🎨 Beautiful retro TV-style interface
-- 🎬 YouTube integration for endless lofi streams
-- 🎛️ Multiple sound effects to enhance your experience
-- 🌈 Theme customization
-- 📻 Channel management (add, edit, delete custom channels)
-- 🎚️ Independent volume controls for music and effects
-- 💾 Persistent settings with localStorage
-- 📱 Responsive design for all devices
+- 🎨 A stylish retro TV-inspired interface
+- 🎬 Seamless YouTube integration for endless lofi streams
+- 🎛️ Multiple sound effects to enhance your vibe
+- 🌈 Theme customization options
+- 📻 Easy channel management (add, edit, delete custom channels)
+- 🎚️ Independent volume controls for music and sound effects
+- 💾 Settings persist across sessions using localStorage
+- 📱 Fully responsive design for all devices
 
 ## 🎵 Customization
 
-### Adding Your Own Channels
+### Add Your Own Channels
 
-Make Calmify truly yours by adding your favorite lofi streams:
+Make Calmify unique by adding your favorite lofi streams:
 
-1. Click the '+' button in the channel list
-2. Paste any YouTube lofi stream URL
-3. Add a name, description, and creator
-4. Save and enjoy your custom channel!
+1. Click the '+' button in the channel list.
+2. Paste the YouTube URL of any lofi stream.
+3. Add a name, description, and creator information.
+4. Save and enjoy your personalized channel!
 
-All your custom channels are saved locally and persist between sessions.
+Your custom channels are stored locally and persist between sessions.
 
-### Mixing Sound Effects
+### Mix Sound Effects
 
-Create the perfect atmosphere by mixing different ambient sounds:
+Create the perfect atmosphere by combining different ambient sounds:
 
-- ☕ Cafe ambience
+- ☕ Café ambience
 - ⌨️ Keyboard typing
 - 🔥 Fireplace crackling
 - 🌧️ Rain sounds
 - 🌫️ White noise
-- 🌪️ Wind ambience
+- 🌪️ Wind sounds
 
-Add your own sound effects:
+To add your own sound effects:
 
-1. Click the '+' button in the sound effects panel
-2. Enter a name for your effect
-3. Provide any YouTube URL to add your sound file
-4. Adjust the volume to your liking
+1. Click the '+' button in the sound effects panel.
+2. Enter a name for your effect.
+3. Provide a YouTube URL for the sound file.
+4. Adjust the volume to your liking.
 
-Each effect has its own volume control, so you can mix them perfectly with your music. All custom effects are saved locally for your next session!
+Each sound effect has its own volume control, letting you mix them with your music. All custom effects are saved locally for your next session!
 
 ## 🚀 Getting Started
 
@@ -60,7 +59,7 @@ Each effect has its own volume control, so you can mix them perfectly with your 
 
 ### Known Limitations
 
-- **Mobile Volume Control**: Due to security restrictions in mobile browsers (Safari, Chrome on iOS, etc.), programmatic volume control may not work. Users will need to use their device's physical volume buttons to adjust the audio level. This is a limitation imposed by mobile browsers to prevent unwanted audio experiences and cannot be circumvented via JavaScript.
+- **Mobile Volume Control**: Mobile browsers (Safari, Chrome on iOS, etc.) may not support programmatic volume control due to security restrictions. Users will need to adjust volume using their device’s physical buttons.
 
 ### Installation
 
@@ -95,11 +94,11 @@ pnpm dev
 bun dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to start vibing! 🎧
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to start enjoying the vibes! 🎧
 
 ### 🐳 Using Docker
 
-You can also run Calmify using Docker:
+You can also run Calmify with Docker:
 
 ```bash
 # Build the Docker image
@@ -109,15 +108,15 @@ docker build -t Calmify .
 docker run -p 3000:3000 Calmify
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to start vibing! 🎧
+Visit [http://localhost:3000](http://localhost:3000) in your browser to start vibing! 🎧
 
 ### 🎮 Usage
 
-- **Channel Navigation**: Use the channel buttons to switch between different lofi streams
-- **Sound Effects**: Toggle various ambient sounds (rain, cafe, birds, etc.) to create your perfect atmosphere
-- **Volume Control**: Adjust both music and effects volume independently
-- **Custom Channels**: Add your own favorite lofi YouTube streams
-- **Theme Customization**: Switch between different visual themes
+- **Channel Navigation**: Switch between different lofi streams using the channel buttons.
+- **Sound Effects**: Toggle ambient sounds (rain, cafe, typing, etc.) to customize your experience.
+- **Volume Control**: Adjust the volume of both music and effects independently.
+- **Custom Channels**: Add your favorite lofi YouTube streams.
+- **Theme Customization**: Choose from various visual themes.
 
 ## 🛠️ Built With
 
@@ -129,30 +128,20 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to start vib
 
 ## 🤝 Contributing
 
-Contributions are what make the open source community amazing! Any contributions you make are **greatly appreciated**.
+We welcome contributions to improve this project! Here’s how you can contribute:
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
-- All the amazing lofi music creators
-- The open source community
-- Coffee ☕
-
-## ⚡ From the Creators of
-
-<p align="center">
-  <a href="https://you-tldr.com">
-    <img src="youtldr-banner.png" alt="You-TLDR Banner" width="600px" />
-  </a>
-</p>
-
-Check out [You-TLDR](https://you-tldr.com) - AI-powered YouTube summaries that save you time!
+- To all the wonderful lofi music creators
+- The open-source community
+- Coffee ☕ for keeping the productivity going
