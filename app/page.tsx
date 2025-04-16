@@ -320,7 +320,7 @@ const EnhancedLofiPlayer = () => {
       data-theme={mounted ? currentTheme : 'dark'}
     >
       <a
-        href="https://github.com/btahir/next-beats"
+        href="https://github.com/aminexfrad/Calmify"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed right-4 top-4 hidden text-[var(--lofi-text-primary)] transition-opacity hover:opacity-70 lg:block"

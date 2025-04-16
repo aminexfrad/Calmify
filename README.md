@@ -66,7 +66,7 @@ Each sound effect has its own volume control, letting you mix them with your mus
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/btahir/Calmify.git
+git clone https://github.com/aminexfrad/Calmify
 cd Calmify
 ```
 
